@@ -7,3 +7,7 @@ MainBgColor varchar(255),
 HeaderColor varchar(255),
 
 )
+CREATE TABLE main_info
+(
+Title varchar(255),
+)

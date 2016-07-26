@@ -2,7 +2,10 @@
 <!--
     HEADER 
 	         -->
-<?php include 'connect_db.php'; ?>
+<?php include 'connect_db.php';
+	  include 'retrieve_db.php';
+	?>
+
 <link rel="stylesheet" type="text/css" href="style.php">
 			 
 <div class="header" id="header" name="header">

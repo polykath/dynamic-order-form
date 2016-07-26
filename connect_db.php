@@ -10,5 +10,8 @@ $conn = new mysqli($servername, $username, $password);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "Connected successfully";
+
+$formstyle = $conn->query("select * from form_style");
+$maininfo = $conn->query("select * from main_info");
+
 ?>
