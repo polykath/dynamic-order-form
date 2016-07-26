@@ -2,6 +2,9 @@
 <!--
     HEADER 
 	         -->
+<?php include 'connect_db.php'; ?>
+<link rel="stylesheet" type="text/css" href="style.php">
+			 
 <div class="header" id="header" name="header">
 	<center>
 	<h1 class="header" id="header" name="header">
