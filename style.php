@@ -11,11 +11,21 @@ Author: Kat Carvell & GITHUB Associates
 <?php
     header("Content-type: text/css; charset: UTF-8");
 	
-	
-	$headercolor = $row['headercolor'];
+	$mainbordercolor = $row['MainBorderColor'];
+	$mainbgcolor = $row['MainBgColor'];
+	$headercolor = $row['HeaderColor'];
 ?>
 
 /***GENERAL STYLE DEFAULTS***/
+/***MAIN PAGE***/
+div.main
+{
+	padding: 10px;
+	float: center;
+	border: 2px solid #<?php echo $mainbordercolor; ?>;
+	background-color: #<?php echo $mainbgcolor; ?>;
+	
+}
 /***HEADER***/
 div.header
 {
