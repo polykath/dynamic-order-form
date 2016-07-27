@@ -1,3 +1,4 @@
 <?php
-$title =$rows['Title'];
+$title =$row['Title'];
+$headerimg =$row['HeaderImg'];
 ?>
